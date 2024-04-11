@@ -1,0 +1,1161 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr  7 11:31:37 2024
+# Process ID: 34670
+# Current directory: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/design_1_myproject_axi_0_0_synth_1
+# Command line: vivado -log design_1_myproject_axi_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_myproject_axi_0_0.tcl
+# Log file: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/design_1_myproject_axi_0_0_synth_1/design_1_myproject_axi_0_0.vds
+# Journal file: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/design_1_myproject_axi_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_myproject_axi_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_prj'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_myproject_axi_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 34699 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1675.895 ; gain = 153.719 ; free physical = 257 ; free virtual = 7031
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_myproject_axi_0_0' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ip/design_1_myproject_axi_0_0/synth/design_1_myproject_axi_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:12]
+	Parameter ap_ST_fsm_state1 bound to: 58'b0000000000000000000000000000000000000000000000000000000001 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 58'b0000000000000000000000000000000000000000000000000000000010 
+	Parameter ap_ST_fsm_state11 bound to: 58'b0000000000000000000000000000000000000000000000000000000100 
+	Parameter ap_ST_fsm_state12 bound to: 58'b0000000000000000000000000000000000000000000000000000001000 
+	Parameter ap_ST_fsm_state13 bound to: 58'b0000000000000000000000000000000000000000000000000000010000 
+	Parameter ap_ST_fsm_state14 bound to: 58'b0000000000000000000000000000000000000000000000000000100000 
+	Parameter ap_ST_fsm_state15 bound to: 58'b0000000000000000000000000000000000000000000000000001000000 
+	Parameter ap_ST_fsm_state16 bound to: 58'b0000000000000000000000000000000000000000000000000010000000 
+	Parameter ap_ST_fsm_state17 bound to: 58'b0000000000000000000000000000000000000000000000000100000000 
+	Parameter ap_ST_fsm_state18 bound to: 58'b0000000000000000000000000000000000000000000000001000000000 
+	Parameter ap_ST_fsm_state19 bound to: 58'b0000000000000000000000000000000000000000000000010000000000 
+	Parameter ap_ST_fsm_state20 bound to: 58'b0000000000000000000000000000000000000000000000100000000000 
+	Parameter ap_ST_fsm_state21 bound to: 58'b0000000000000000000000000000000000000000000001000000000000 
+	Parameter ap_ST_fsm_state22 bound to: 58'b0000000000000000000000000000000000000000000010000000000000 
+	Parameter ap_ST_fsm_state23 bound to: 58'b0000000000000000000000000000000000000000000100000000000000 
+	Parameter ap_ST_fsm_state24 bound to: 58'b0000000000000000000000000000000000000000001000000000000000 
+	Parameter ap_ST_fsm_state25 bound to: 58'b0000000000000000000000000000000000000000010000000000000000 
+	Parameter ap_ST_fsm_state26 bound to: 58'b0000000000000000000000000000000000000000100000000000000000 
+	Parameter ap_ST_fsm_state27 bound to: 58'b0000000000000000000000000000000000000001000000000000000000 
+	Parameter ap_ST_fsm_state28 bound to: 58'b0000000000000000000000000000000000000010000000000000000000 
+	Parameter ap_ST_fsm_state29 bound to: 58'b0000000000000000000000000000000000000100000000000000000000 
+	Parameter ap_ST_fsm_state30 bound to: 58'b0000000000000000000000000000000000001000000000000000000000 
+	Parameter ap_ST_fsm_state31 bound to: 58'b0000000000000000000000000000000000010000000000000000000000 
+	Parameter ap_ST_fsm_state32 bound to: 58'b0000000000000000000000000000000000100000000000000000000000 
+	Parameter ap_ST_fsm_state33 bound to: 58'b0000000000000000000000000000000001000000000000000000000000 
+	Parameter ap_ST_fsm_state34 bound to: 58'b0000000000000000000000000000000010000000000000000000000000 
+	Parameter ap_ST_fsm_state35 bound to: 58'b0000000000000000000000000000000100000000000000000000000000 
+	Parameter ap_ST_fsm_state36 bound to: 58'b0000000000000000000000000000001000000000000000000000000000 
+	Parameter ap_ST_fsm_state37 bound to: 58'b0000000000000000000000000000010000000000000000000000000000 
+	Parameter ap_ST_fsm_state38 bound to: 58'b0000000000000000000000000000100000000000000000000000000000 
+	Parameter ap_ST_fsm_state39 bound to: 58'b0000000000000000000000000001000000000000000000000000000000 
+	Parameter ap_ST_fsm_state40 bound to: 58'b0000000000000000000000000010000000000000000000000000000000 
+	Parameter ap_ST_fsm_state41 bound to: 58'b0000000000000000000000000100000000000000000000000000000000 
+	Parameter ap_ST_fsm_state42 bound to: 58'b0000000000000000000000001000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state43 bound to: 58'b0000000000000000000000010000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state44 bound to: 58'b0000000000000000000000100000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state45 bound to: 58'b0000000000000000000001000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state46 bound to: 58'b0000000000000000000010000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state47 bound to: 58'b0000000000000000000100000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state48 bound to: 58'b0000000000000000001000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state49 bound to: 58'b0000000000000000010000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state50 bound to: 58'b0000000000000000100000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state51 bound to: 58'b0000000000000001000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state52 bound to: 58'b0000000000000010000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state53 bound to: 58'b0000000000000100000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state54 bound to: 58'b0000000000001000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state55 bound to: 58'b0000000000010000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state56 bound to: 58'b0000000000100000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state57 bound to: 58'b0000000001000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state58 bound to: 58'b0000000010000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state59 bound to: 58'b0000000100000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state60 bound to: 58'b0000001000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state61 bound to: 58'b0000010000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state62 bound to: 58'b0000100000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state63 bound to: 58'b0001000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state64 bound to: 58'b0010000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp1_stage0 bound to: 58'b0100000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state75 bound to: 58'b1000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:153]
+INFO: [Synth 8-6157] synthesizing module 'myproject' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject.v:10]
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 17'b00000000000000001 
+	Parameter ap_ST_fsm_pp0_stage1 bound to: 17'b00000000000000010 
+	Parameter ap_ST_fsm_pp0_stage2 bound to: 17'b00000000000000100 
+	Parameter ap_ST_fsm_pp0_stage3 bound to: 17'b00000000000001000 
+	Parameter ap_ST_fsm_pp0_stage4 bound to: 17'b00000000000010000 
+	Parameter ap_ST_fsm_pp0_stage5 bound to: 17'b00000000000100000 
+	Parameter ap_ST_fsm_pp0_stage6 bound to: 17'b00000000001000000 
+	Parameter ap_ST_fsm_pp0_stage7 bound to: 17'b00000000010000000 
+	Parameter ap_ST_fsm_pp0_stage8 bound to: 17'b00000000100000000 
+	Parameter ap_ST_fsm_pp0_stage9 bound to: 17'b00000001000000000 
+	Parameter ap_ST_fsm_pp0_stage10 bound to: 17'b00000010000000000 
+	Parameter ap_ST_fsm_pp0_stage11 bound to: 17'b00000100000000000 
+	Parameter ap_ST_fsm_pp0_stage12 bound to: 17'b00001000000000000 
+	Parameter ap_ST_fsm_pp0_stage13 bound to: 17'b00010000000000000 
+	Parameter ap_ST_fsm_pp0_stage14 bound to: 17'b00100000000000000 
+	Parameter ap_ST_fsm_pp0_stage15 bound to: 17'b01000000000000000 
+	Parameter ap_ST_fsm_pp0_stage16 bound to: 17'b10000000000000000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject.v:65]
+INFO: [Synth 8-6157] synthesizing module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 8'b00000001 
+	Parameter ap_ST_fsm_state2 bound to: 8'b00000010 
+	Parameter ap_ST_fsm_state3 bound to: 8'b00000100 
+	Parameter ap_ST_fsm_state4 bound to: 8'b00001000 
+	Parameter ap_ST_fsm_state5 bound to: 8'b00010000 
+	Parameter ap_ST_fsm_state6 bound to: 8'b00100000 
+	Parameter ap_ST_fsm_state7 bound to: 8'b01000000 
+	Parameter ap_ST_fsm_state8 bound to: 8'b10000000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:219]
+INFO: [Synth 8-6155] done synthesizing module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1' (1#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 9'b000000001 
+	Parameter ap_ST_fsm_state2 bound to: 9'b000000010 
+	Parameter ap_ST_fsm_state3 bound to: 9'b000000100 
+	Parameter ap_ST_fsm_state4 bound to: 9'b000001000 
+	Parameter ap_ST_fsm_state5 bound to: 9'b000010000 
+	Parameter ap_ST_fsm_state6 bound to: 9'b000100000 
+	Parameter ap_ST_fsm_state7 bound to: 9'b001000000 
+	Parameter ap_ST_fsm_state8 bound to: 9'b010000000 
+	Parameter ap_ST_fsm_state9 bound to: 9'b100000000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:160]
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_mul_7s_16s_21_2_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_7s_16s_21_2_1.v:25]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 2 - type: integer 
+	Parameter din0_WIDTH bound to: 7 - type: integer 
+	Parameter din1_WIDTH bound to: 16 - type: integer 
+	Parameter dout_WIDTH bound to: 21 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_mul_7s_16s_21_2_1_MulnS_0' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_7s_16s_21_2_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_mul_7s_16s_21_2_1_MulnS_0' (2#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_7s_16s_21_2_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_mul_7s_16s_21_2_1' (3#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_7s_16s_21_2_1.v:25]
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_mul_6s_16s_21_2_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_6s_16s_21_2_1.v:25]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 2 - type: integer 
+	Parameter din0_WIDTH bound to: 6 - type: integer 
+	Parameter din1_WIDTH bound to: 16 - type: integer 
+	Parameter dout_WIDTH bound to: 21 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_mul_6s_16s_21_2_1_MulnS_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_6s_16s_21_2_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_mul_6s_16s_21_2_1_MulnS_1' (4#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_6s_16s_21_2_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_mul_6s_16s_21_2_1' (5#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_6s_16s_21_2_1.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s' (6#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 17'b00000000000000001 
+	Parameter ap_ST_fsm_state2 bound to: 17'b00000000000000010 
+	Parameter ap_ST_fsm_state3 bound to: 17'b00000000000000100 
+	Parameter ap_ST_fsm_state4 bound to: 17'b00000000000001000 
+	Parameter ap_ST_fsm_state5 bound to: 17'b00000000000010000 
+	Parameter ap_ST_fsm_state6 bound to: 17'b00000000000100000 
+	Parameter ap_ST_fsm_state7 bound to: 17'b00000000001000000 
+	Parameter ap_ST_fsm_state8 bound to: 17'b00000000010000000 
+	Parameter ap_ST_fsm_state9 bound to: 17'b00000000100000000 
+	Parameter ap_ST_fsm_state10 bound to: 17'b00000001000000000 
+	Parameter ap_ST_fsm_state11 bound to: 17'b00000010000000000 
+	Parameter ap_ST_fsm_state12 bound to: 17'b00000100000000000 
+	Parameter ap_ST_fsm_state13 bound to: 17'b00001000000000000 
+	Parameter ap_ST_fsm_state14 bound to: 17'b00010000000000000 
+	Parameter ap_ST_fsm_state15 bound to: 17'b00100000000000000 
+	Parameter ap_ST_fsm_state16 bound to: 17'b01000000000000000 
+	Parameter ap_ST_fsm_state17 bound to: 17'b10000000000000000 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:160]
+INFO: [Synth 8-6155] done synthesizing module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0' (7#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:10]
+INFO: [Synth 8-6157] synthesizing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:10]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2572]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2574]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2576]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2578]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2580]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2582]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2584]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2586]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2588]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2590]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2592]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2594]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2596]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2598]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2600]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2602]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2604]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2606]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2608]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2610]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2612]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2614]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2616]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2618]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2620]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2622]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2624]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2626]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2628]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2630]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2632]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2634]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2636]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2638]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2640]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2642]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2644]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2646]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2648]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2650]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2652]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2654]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2656]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2658]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2660]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2662]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2664]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2666]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2668]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2670]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2672]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2674]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2676]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2678]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2680]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2682]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2684]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2686]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2688]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2690]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2692]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2694]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2696]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2698]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2700]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2702]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2704]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2706]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2708]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2710]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2712]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2714]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2716]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2718]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2720]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2722]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2724]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2726]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2728]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2730]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2732]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2734]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2736]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2738]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2740]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2742]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2744]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2746]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2748]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2750]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2752]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2754]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2756]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2758]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2760]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2762]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2764]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2766]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2768]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:2770]
+INFO: [Common 17-14] Message 'Synth 8-589' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s' (8#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s' (9#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s' (10#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:10]
+	Parameter ap_ST_fsm_state1 bound to: 3'b001 
+	Parameter ap_ST_fsm_state2 bound to: 3'b010 
+	Parameter ap_ST_fsm_state3 bound to: 3'b100 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:94]
+INFO: [Synth 8-6155] done synthesizing module 'dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0' (11#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:10]
+INFO: [Synth 8-6157] synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.v:10]
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 1'b1 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.v:54]
+INFO: [Synth 8-6157] synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:95]
+	Parameter DataWidth bound to: 18 - type: integer 
+	Parameter AddressRange bound to: 1024 - type: integer 
+	Parameter AddressWidth bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:6]
+	Parameter DWIDTH bound to: 18 - type: integer 
+	Parameter AWIDTH bound to: 10 - type: integer 
+	Parameter MEM_SIZE bound to: 1024 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:30]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:31]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:32]
+INFO: [Synth 8-3876] $readmem data file './softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom.dat' is read successfully [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:35]
+INFO: [Synth 8-3876] $readmem data file './softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom.dat' is read successfully [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:36]
+INFO: [Synth 8-3876] $readmem data file './softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom.dat' is read successfully [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom' (12#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1' (13#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1.v:95]
+INFO: [Synth 8-6157] synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2.v:39]
+	Parameter DataWidth bound to: 18 - type: integer 
+	Parameter AddressRange bound to: 1024 - type: integer 
+	Parameter AddressWidth bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2_rom' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2.v:6]
+	Parameter DWIDTH bound to: 18 - type: integer 
+	Parameter AWIDTH bound to: 10 - type: integer 
+	Parameter MEM_SIZE bound to: 1024 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2_rom.dat' is read successfully [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2_rom' (14#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2' (15#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2.v:39]
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_mul_mul_18s_18s_30_3_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_mul_18s_18s_30_3_1.v:29]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 3 - type: integer 
+	Parameter din0_WIDTH bound to: 18 - type: integer 
+	Parameter din1_WIDTH bound to: 18 - type: integer 
+	Parameter dout_WIDTH bound to: 30 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_mul_18s_18s_30_3_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0' (16#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_mul_18s_18s_30_3_1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_mul_mul_18s_18s_30_3_1' (17#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_mul_18s_18s_30_3_1.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s' (18#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'myproject' (19#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject.v:10]
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_fpext_32ns_64_3_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_fpext_32ns_64_3_1.v:8]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 3 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'myproject_axi_ap_fpext_1_no_dsp_32' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/ip/myproject_axi_ap_fpext_1_no_dsp_32.vhd:70]
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 1 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_SUB bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_8' declared at '/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/83a3/hdl/floating_point_v7_1_vh_rfs.vhd:94214' bound to instance 'U0' of component 'floating_point_v7_1_8' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/ip/myproject_axi_ap_fpext_1_no_dsp_32.vhd:205]
+INFO: [Synth 8-256] done synthesizing module 'myproject_axi_ap_fpext_1_no_dsp_32' (30#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/ip/myproject_axi_ap_fpext_1_no_dsp_32.vhd:70]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_fpext_32ns_64_3_1' (31#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_fpext_32ns_64_3_1.v:8]
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_ashr_54ns_32ns_54_2_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_ashr_54ns_32ns_54_2_1.v:8]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 54 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 54 - type: integer 
+	Parameter OP bound to: 2 - type: integer 
+	Parameter NUM_STAGE bound to: 2 - type: integer 
+	Parameter K bound to: 16 - type: integer 
+	Parameter LATENCY bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_ashr_54ns_32ns_54_2_1' (32#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_ashr_54ns_32ns_54_2_1.v:8]
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_mux_53_16_1_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mux_53_16_1_1.v:8]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 16 - type: integer 
+	Parameter din2_WIDTH bound to: 16 - type: integer 
+	Parameter din3_WIDTH bound to: 16 - type: integer 
+	Parameter din4_WIDTH bound to: 16 - type: integer 
+	Parameter din5_WIDTH bound to: 3 - type: integer 
+	Parameter dout_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_mux_53_16_1_1' (33#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mux_53_16_1_1.v:8]
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_lshr_32ns_32ns_32_2_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_lshr_32ns_32ns_32_2_1.v:8]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+	Parameter OP bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 2 - type: integer 
+	Parameter K bound to: 16 - type: integer 
+	Parameter LATENCY bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_lshr_32ns_32ns_32_2_1' (34#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_lshr_32ns_32ns_32_2_1.v:8]
+INFO: [Synth 8-6157] synthesizing module 'myproject_axi_shl_64ns_32ns_64_2_1' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_shl_64ns_32ns_64_2_1.v:8]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 64 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 64 - type: integer 
+	Parameter OP bound to: 0 - type: integer 
+	Parameter NUM_STAGE bound to: 2 - type: integer 
+	Parameter K bound to: 16 - type: integer 
+	Parameter LATENCY bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi_shl_64ns_32ns_64_2_1' (35#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_shl_64ns_32ns_64_2_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_axi' (36#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_myproject_axi_0_0' (37#1) [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ip/design_1_myproject_axi_0_0/synth/design_1_myproject_axi_0_0.v:58]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[63]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[62]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[61]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[60]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[59]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[58]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[57]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[56]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[55]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[54]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[53]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[52]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[51]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[50]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[49]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[48]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[47]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[46]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[45]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[44]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[43]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[42]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[41]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[40]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[39]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[38]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[37]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[36]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[35]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[34]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[33]
+WARNING: [Synth 8-3331] design myproject_axi_shl_64ns_32ns_64_2_1 has unconnected port din1[32]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[53]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[52]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[51]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[50]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[49]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[48]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[47]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[46]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[45]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[44]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[43]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[42]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[41]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[40]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[39]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[38]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[37]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[36]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[35]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[34]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[33]
+WARNING: [Synth 8-3331] design myproject_axi_ashr_54ns_32ns_54_2_1 has unconnected port din1[32]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized13 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized13 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized13 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized13 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized13 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized15 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized15 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized15 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DIVIDE_BY_ZERO_IN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized11 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized11 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized11 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized11 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized11 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized7 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized7 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized7 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized7 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized7 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized9 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized9 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized9 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized9 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized9 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized1 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized1 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized1 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized1 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized1 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design special_detect has unconnected port A[31]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized17 has unconnected port CLK
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1864.520 ; gain = 342.344 ; free physical = 310 ; free virtual = 6416
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1882.332 ; gain = 360.156 ; free physical = 883 ; free virtual = 6988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1882.332 ; gain = 360.156 ; free physical = 889 ; free virtual = 6994
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ip/design_1_myproject_axi_0_0/constraints/myproject_axi_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ip/design_1_myproject_axi_0_0/constraints/myproject_axi_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/design_1_myproject_axi_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/design_1_myproject_axi_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2048.082 ; gain = 0.000 ; free physical = 1416 ; free virtual = 7525
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.38 ; elapsed = 00:00:00.21 . Memory (MB): peak = 2048.082 ; gain = 0.000 ; free physical = 1387 ; free virtual = 7501
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 2048.082 ; gain = 525.906 ; free physical = 1301 ; free virtual = 7429
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 2048.082 ; gain = 525.906 ; free physical = 1301 ; free virtual = 7429
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/design_1_myproject_axi_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 2048.082 ; gain = 525.906 ; free physical = 1301 ; free virtual = 7429
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'zext_ln1118_128_reg_13806_reg[9:6]' into 'zext_ln1118_120_reg_13794_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:4630]
+INFO: [Synth 8-4471] merging register 'zext_ln708_169_reg_13871_reg[9:6]' into 'zext_ln1118_120_reg_13794_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:8126]
+INFO: [Synth 8-4471] merging register 'zext_ln708_216_reg_13891_reg[9:6]' into 'zext_ln1118_120_reg_13794_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:4664]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_199_reg_13986_reg[9:6]' into 'zext_ln1118_120_reg_13794_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:6130]
+INFO: [Synth 8-4471] merging register 'shl_ln708_23_reg_14228_reg[1:0]' into 'tmp_4_reg_14213_reg[1:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:8096]
+INFO: [Synth 8-4471] merging register 'shl_ln708_27_reg_14274_reg[0:0]' into 'shl_ln708_12_reg_14119_reg[0:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:7558]
+INFO: [Synth 8-4471] merging register 'shl_ln1118_37_reg_14306_reg[1:0]' into 'tmp_4_reg_14213_reg[1:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:6764]
+INFO: [Synth 8-4471] merging register 'sub_ln1118_115_reg_14348_reg[2:0]' into 'shl_ln1118_23_reg_14238_reg[2:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:4954]
+INFO: [Synth 8-4471] merging register 'shl_ln708_40_reg_14353_reg[0:0]' into 'shl_ln708_12_reg_14119_reg[0:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:7848]
+INFO: [Synth 8-4471] merging register 'shl_ln1118_14_reg_14488_reg[1:0]' into 'tmp_4_reg_14213_reg[1:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:6700]
+INFO: [Synth 8-4471] merging register 'shl_ln708_14_reg_14534_reg[0:0]' into 'shl_ln708_12_reg_14119_reg[0:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:7092]
+INFO: [Synth 8-4471] merging register 'shl_ln1118_43_reg_14705_reg[2:0]' into 'shl_ln1118_23_reg_14238_reg[2:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:7154]
+INFO: [Synth 8-4471] merging register 'shl_ln708_35_reg_14720_reg[1:0]' into 'tmp_4_reg_14213_reg[1:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:7156]
+INFO: [Synth 8-4471] merging register 'shl_ln708_38_reg_14792_reg[1:0]' into 'tmp_4_reg_14213_reg[1:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:7796]
+INFO: [Synth 8-4471] merging register 'zext_ln708_247_reg_14838_reg[10:10]' into 'shl_ln708_12_reg_14119_reg[0:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:4122]
+INFO: [Synth 8-4471] merging register 'shl_ln1118_58_reg_14853_reg[1:0]' into 'tmp_4_reg_14213_reg[1:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:7902]
+INFO: [Synth 8-4471] merging register 'zext_ln708_281_reg_14935_reg[10:10]' into 'shl_ln708_12_reg_14119_reg[0:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:4482]
+INFO: [Synth 8-4471] merging register 'sext_ln203_29_reg_15565_reg[0:0]' into 'shl_ln708_12_reg_14119_reg[0:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:4260]
+INFO: [Synth 8-4471] merging register 'add_ln703_45_reg_15580_reg[0:0]' into 'shl_ln708_12_reg_14119_reg[0:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v:5328]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4471] merging register 'sub_ln1118_250_reg_6668_reg[3:0]' into 'sext_ln1118_147_reg_6659_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:3586]
+INFO: [Synth 8-4471] merging register 'sext_ln1118_63_reg_6733_reg[1:0]' into 'shl_ln1118_123_reg_6674_reg[1:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:2126]
+INFO: [Synth 8-4471] merging register 'sext_ln1118_64_reg_6744_reg[3:0]' into 'sext_ln1118_147_reg_6659_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:2126]
+INFO: [Synth 8-4471] merging register 'sub_ln1118_174_reg_6753_reg[3:0]' into 'sext_ln1118_147_reg_6659_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:3426]
+INFO: [Synth 8-4471] merging register 'sext_ln1118_73_reg_6800_reg[3:0]' into 'sext_ln1118_147_reg_6659_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:3462]
+INFO: [Synth 8-4471] merging register 'sub_ln1118_189_reg_6805_reg[3:0]' into 'sext_ln1118_147_reg_6659_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:3460]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4471] merging register 'sext_ln1118_64_reg_6744_reg[19:4]' into 'sext_ln1118_63_reg_6733_reg[17:2]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v:1567]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_39_reg_8253_reg[5:0]' into 'zext_ln1118_36_reg_8247_reg[5:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:1979]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_93_reg_8119_reg[5:0]' into 'zext_ln1116_4_reg_8113_reg[5:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:2175]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_79_reg_8063_reg[9:6]' into 'zext_ln1118_64_reg_8040_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4018]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_93_reg_8119_reg[9:6]' into 'zext_ln1118_64_reg_8040_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:3094]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_18_reg_8135_reg[10:6]' into 'zext_ln1118_70_reg_8050_reg[10:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:5146]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_112_reg_8145_reg[9:6]' into 'zext_ln1118_64_reg_8040_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4174]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_118_reg_8192_reg[9:6]' into 'zext_ln1118_64_reg_8040_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4094]
+INFO: [Synth 8-4471] merging register 'zext_ln708_167_reg_8197_reg[9:6]' into 'zext_ln1118_64_reg_8040_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:3118]
+INFO: [Synth 8-4471] merging register 'zext_ln708_12_reg_8242_reg[10:6]' into 'zext_ln1118_70_reg_8050_reg[10:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4198]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_36_reg_8247_reg[10:6]' into 'zext_ln1118_70_reg_8050_reg[10:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4002]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_39_reg_8253_reg[9:6]' into 'zext_ln1118_64_reg_8040_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:3112]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_132_reg_8268_reg[9:6]' into 'zext_ln1118_64_reg_8040_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4042]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_45_reg_8318_reg[10:6]' into 'zext_ln1118_70_reg_8050_reg[10:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4130]
+INFO: [Synth 8-4471] merging register 'zext_ln1118_75_reg_8416_reg[10:6]' into 'zext_ln1118_70_reg_8050_reg[10:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:3136]
+INFO: [Synth 8-4471] merging register 'zext_ln708_55_reg_8426_reg[10:6]' into 'zext_ln1118_70_reg_8050_reg[10:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4156]
+INFO: [Synth 8-4471] merging register 'shl_ln708_7_reg_8526_reg[4:0]' into 'zext_ln1118_70_reg_8050_reg[10:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4192]
+INFO: [Synth 8-4471] merging register 'shl_ln708_19_reg_8532_reg[1:0]' into 'shl_ln708_70_reg_8482_reg[1:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:5066]
+INFO: [Synth 8-4471] merging register 'shl_ln708_42_reg_8567_reg[0:0]' into 'zext_ln708_101_reg_8263_reg[10:10]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4542]
+INFO: [Synth 8-4471] merging register 'shl_ln708_4_reg_8608_reg[0:0]' into 'zext_ln708_101_reg_8263_reg[10:10]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4822]
+INFO: [Synth 8-4471] merging register 'zext_ln1116_5_reg_8628_reg[11:6]' into 'zext_ln1116_1_reg_8308_reg[11:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4030]
+INFO: [Synth 8-4471] merging register 'tmp_23_reg_8650_reg[4:0]' into 'zext_ln1118_70_reg_8050_reg[10:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4434]
+INFO: [Synth 8-4471] merging register 'zext_ln708_332_reg_8660_reg[10:10]' into 'zext_ln708_101_reg_8263_reg[10:10]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:2806]
+INFO: [Synth 8-4471] merging register 'shl_ln1118_6_reg_8822_reg[0:0]' into 'zext_ln708_101_reg_8263_reg[10:10]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4938]
+INFO: [Synth 8-4471] merging register 'sub_ln1118_45_reg_8903_reg[3:0]' into 'zext_ln1118_64_reg_8040_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:3364]
+INFO: [Synth 8-4471] merging register 'shl_ln708_62_reg_8913_reg[1:0]' into 'shl_ln708_70_reg_8482_reg[1:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4372]
+INFO: [Synth 8-4471] merging register 'sub_ln1118_48_reg_8919_reg[3:0]' into 'zext_ln1118_64_reg_8040_reg[9:6]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:3386]
+INFO: [Synth 8-4471] merging register 'sub_ln1118_53_reg_8945_reg[2:0]' into 'shl_ln708_33_reg_8457_reg[2:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:3394]
+INFO: [Synth 8-4471] merging register 'sub_ln1118_58_reg_8960_reg[2:0]' into 'shl_ln708_33_reg_8457_reg[2:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:3396]
+INFO: [Synth 8-4471] merging register 'shl_ln1118_51_reg_8965_reg[0:0]' into 'zext_ln708_101_reg_8263_reg[10:10]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4404]
+INFO: [Synth 8-4471] merging register 'add_ln703_221_reg_9176_reg[0:0]' into 'zext_ln708_101_reg_8263_reg[10:10]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4794]
+INFO: [Synth 8-4471] merging register 'shl_ln1118_40_reg_9209_reg[0:0]' into 'zext_ln708_101_reg_8263_reg[10:10]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4366]
+INFO: [Synth 8-4471] merging register 'shl_ln708_68_reg_9219_reg[0:0]' into 'zext_ln708_101_reg_8263_reg[10:10]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:4606]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4471] merging register 'tmp_23_reg_8650_reg[10:5]' into 'zext_ln1116_5_reg_8628_reg[5:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.v:2048]
+INFO: [Synth 8-4471] merging register 'add_ln703_reg_1776_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:697]
+INFO: [Synth 8-4471] merging register 'add_ln703_4_reg_1781_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:689]
+INFO: [Synth 8-4471] merging register 'add_ln703_20_reg_1786_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:655]
+INFO: [Synth 8-4471] merging register 'add_ln703_22_reg_1791_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:659]
+INFO: [Synth 8-4471] merging register 'add_ln703_31_reg_1796_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:673]
+INFO: [Synth 8-4471] merging register 'add_ln703_33_reg_1801_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:677]
+INFO: [Synth 8-4471] merging register 'add_ln703_12_reg_1831_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:647]
+INFO: [Synth 8-4471] merging register 'add_ln703_15_reg_1836_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:653]
+INFO: [Synth 8-4471] merging register 'add_ln703_24_reg_1846_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:663]
+INFO: [Synth 8-4471] merging register 'add_ln703_32_reg_1861_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:675]
+INFO: [Synth 8-4471] merging register 'add_ln703_34_reg_1866_reg[3:0]' into 'sext_ln1118_6_reg_1751_reg[3:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0.v:679]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-7031] Trying to map ROM "ram0" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-7031] Trying to map ROM "ram0" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-7031] Trying to map ROM "ram1" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-7031] Trying to map ROM "ram1" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-7031] Trying to map ROM "ram2" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4471] merging register 'or_ln_reg_1322_pp1_iter5_reg_reg[31:1]' into 'or_ln_reg_1322_reg[31:1]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:2139]
+WARNING: [Synth 8-3936] Found unconnected internal register 'm_5_reg_1357_pp1_iter7_reg_reg' and it is trimmed from '63' to '23' bits. [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:1071]
+WARNING: [Synth 8-3936] Found unconnected internal register 'm_5_reg_1357_reg' and it is trimmed from '63' to '23' bits. [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:1241]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln944_reg_1286_pp1_iter3_reg_reg' and it is trimmed from '16' to '4' bits. [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:1087]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln944_reg_1286_reg' and it is trimmed from '16' to '4' bits. [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:1296]
+WARNING: [Synth 8-3936] Found unconnected internal register 'ashr_ln586_reg_1155_reg' and it is trimmed from '54' to '16' bits. [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:1130]
+INFO: [Synth 8-4471] merging register 'trunc_ln943_reg_1274_reg[5:0]' into 'l_reg_1269_reg[5:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:1178]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 2048.082 ; gain = 525.906 ; free physical = 594 ; free virtual = 6730
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/myproject_axi_fpext_32ns_64_3_1_U248/myproject_axi_ap_fpext_1_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized2) to 'inst/myproject_axi_fpext_32ns_64_3_1_U248/myproject_axi_ap_fpext_1_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/myproject_axi_fpext_32ns_64_3_1_U248/myproject_axi_ap_fpext_1_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized2) to 'inst/myproject_axi_fpext_32ns_64_3_1_U248/myproject_axi_ap_fpext_1_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/myproject_axi_fpext_32ns_64_3_1_U248/myproject_axi_ap_fpext_1_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized2) to 'inst/myproject_axi_fpext_32ns_64_3_1_U248/myproject_axi_ap_fpext_1_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+
+Report RTL Partitions: 
++------+---------------------------------------------------------------------------------------+------------+----------+
+|      |RTL Partition                                                                          |Replication |Instances |
++------+---------------------------------------------------------------------------------------+------------+----------+
+|1     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1__GB0 |           1|     23045|
+|2     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1__GB1 |           1|      5769|
+|3     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB0 |           1|     20003|
+|4     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB1 |           1|      4684|
+|5     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB2 |           1|      5639|
+|6     |myproject__GCB0                                                                        |           1|     18980|
+|7     |myproject__GCB1                                                                        |           1|      8424|
+|8     |myproject__GCB2                                                                        |           1|     11735|
+|9     |myproject_axi__GC0                                                                     |           1|     13393|
++------+---------------------------------------------------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 4 processes.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'myproject_axi_mul_mul_18s_18s_30_3_1_U235/myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0_U/b_reg_reg[17:0]' into 'myproject_axi_mul_mul_18s_18s_30_3_1_U234/myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0_U/b_reg_reg[17:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_mul_18s_18s_30_3_1.v:20]
+INFO: [Synth 8-4471] merging register 'myproject_axi_mul_mul_18s_18s_30_3_1_U236/myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0_U/b_reg_reg[17:0]' into 'myproject_axi_mul_mul_18s_18s_30_3_1_U234/myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0_U/b_reg_reg[17:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_mul_18s_18s_30_3_1.v:20]
+INFO: [Synth 8-4471] merging register 'myproject_axi_mul_mul_18s_18s_30_3_1_U237/myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0_U/b_reg_reg[17:0]' into 'myproject_axi_mul_mul_18s_18s_30_3_1_U234/myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0_U/b_reg_reg[17:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_mul_18s_18s_30_3_1.v:20]
+INFO: [Synth 8-4471] merging register 'myproject_axi_mul_mul_18s_18s_30_3_1_U238/myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0_U/b_reg_reg[17:0]' into 'myproject_axi_mul_mul_18s_18s_30_3_1_U234/myproject_axi_mul_mul_18s_18s_30_3_1_DSP48_0_U/b_reg_reg[17:0]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi_mul_mul_18s_18s_30_3_1.v:20]
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_51_reg_14284_reg[0]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_21_V_read_4_reg_14030_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_51_reg_14284_reg[1]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_21_V_read_4_reg_14030_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_51_reg_14284_reg[2]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_21_V_read_4_reg_14030_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_51_reg_14284_reg[3]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_21_V_read_4_reg_14030_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_51_reg_14284_reg[4]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_21_V_read_4_reg_14030_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_27_reg_14153_reg[0]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_6_V_read_3_reg_14091_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_27_reg_14153_reg[1]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_6_V_read_3_reg_14091_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_27_reg_14153_reg[2]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_6_V_read_3_reg_14091_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_27_reg_14153_reg[3]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_6_V_read_3_reg_14091_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_27_reg_14153_reg[4]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/data_6_V_read_3_reg_14091_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\zext_ln708_85_reg_14590_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\zext_ln708_85_reg_14590_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\zext_ln708_85_reg_14590_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\zext_ln708_85_reg_14590_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\zext_ln708_85_reg_14590_reg[9] )
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/shl_ln1118_37_reg_14306_reg[2]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/zext_ln708_145_reg_14318_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/shl_ln1118_37_reg_14306_reg[3]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/zext_ln708_145_reg_14318_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/shl_ln1118_37_reg_14306_reg[4]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/zext_ln708_145_reg_14318_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/shl_ln1118_37_reg_14306_reg[5]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/zext_ln708_145_reg_14318_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/shl_ln1118_37_reg_14306_reg[6]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/zext_ln708_145_reg_14318_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/shl_ln1118_37_reg_14306_reg[7]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/zext_ln708_145_reg_14318_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/add_ln703_148_reg_15130_reg[8]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/add_ln703_148_reg_15130_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\trunc_ln708_131_reg_14468_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\zext_ln708_145_reg_14318_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\zext_ln708_145_reg_14318_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\zext_ln708_145_reg_14318_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\shl_ln708_12_reg_14119_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\tmp_4_reg_14213_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\tmp_4_reg_14213_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/tmp_526_reg_14670_reg[0]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_65_reg_14665_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/trunc_ln708_131_reg_14468_reg[0]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_65_reg_14665_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/tmp_526_reg_14670_reg[1]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/lshr_ln708_65_reg_14665_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\lshr_ln708_65_reg_14665_reg[0] )
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[0]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[1]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[2]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[3]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[4]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[5]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[6]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[7]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[8]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[9]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[10]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[11]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[12]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[13]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[14]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[15]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[16]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[17]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[18]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[19]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/sext_ln1118_41_reg_6312_reg[20]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/tmp_5_reg_6304_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/mult_272_V_reg_7362_reg[11]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/mult_272_V_reg_7362_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/mult_272_V_reg_7362_reg[12]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/mult_272_V_reg_7362_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/mult_272_V_reg_7362_reg[13]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/mult_272_V_reg_7362_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/mult_272_V_reg_7362_reg[14]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_4/mult_272_V_reg_7362_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_123_reg_6674_reg[0]' (FD) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_147_reg_6659_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_123_reg_6674_reg[1]' (FD) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_147_reg_6659_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[1]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[2]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[3]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[4]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[5]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[6]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[7]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[8]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[9]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[10]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[11]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[12]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[13]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[14]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[15]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[16]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/shl_ln1118_83_reg_6764_reg[16]' (FDE) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_63_reg_6733_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_147_reg_6659_reg[0]' (FD) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_147_reg_6659_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_147_reg_6659_reg[1]' (FD) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_147_reg_6659_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_147_reg_6659_reg[2]' (FD) to 'inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/sext_ln1118_147_reg_6659_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106i_2_5/\sext_ln1118_147_reg_6659_reg[3] )
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_120_reg_1736_reg[0]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_120_reg_1736_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_120_reg_1736_reg[1]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_120_reg_1736_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_120_reg_1736_reg[2]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_120_reg_1736_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_120_reg_1736_reg[3]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln_reg_1700_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln_reg_1700_reg[0]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln_reg_1700_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln_reg_1700_reg[1]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln_reg_1700_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln_reg_1700_reg[2]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln_reg_1700_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln_reg_1700_reg[3] )
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/sext_ln1118_6_reg_1751_reg[10]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/sext_ln1118_6_reg_1751_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_123_reg_1811_reg[0]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_123_reg_1811_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/sext_ln1118_6_reg_1751_reg[0] )
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_123_reg_1811_reg[1]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_123_reg_1811_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/sext_ln1118_6_reg_1751_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_123_reg_1811_reg[2]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_123_reg_1811_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/sext_ln1118_6_reg_1751_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/trunc_ln708_123_reg_1811_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_272/sext_ln1118_6_reg_1751_reg[3] )
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/layer11_out_4_V_reg_2387_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/layer11_out_4_V_reg_2387_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/layer11_out_2_V_reg_2377_reg[13]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/layer11_out_2_V_reg_2377_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/layer11_out_2_V_reg_2377_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/layer11_out_2_V_reg_2377_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/layer11_out_3_V_reg_2382_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/layer11_out_3_V_reg_2382_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/layer11_out_1_V_reg_2372_reg[12]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/layer11_out_1_V_reg_2372_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/layer11_out_1_V_reg_2372_reg[13]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/layer11_out_1_V_reg_2372_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/layer11_out_0_V_reg_2367_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/layer11_out_0_V_reg_2367_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/layer11_out_1_V_reg_2372_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/layer11_out_1_V_reg_2372_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_4_V_read_1_reg_830_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_4_V_read_1_reg_830_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[12]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[13]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_2_V_read_1_reg_843_reg[13]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_2_V_read_1_reg_843_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_0_V_read_1_reg_855_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_0_V_read_1_reg_855_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_3_V_read_1_reg_837_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_3_V_read_1_reg_837_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_2_V_read_1_reg_843_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_2_V_read_1_reg_843_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_pp0_iter1_reg_reg[12]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_pp0_iter1_reg_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_pp0_iter1_reg_reg[13]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_pp0_iter1_reg_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_pp0_iter1_reg_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_pp0_iter1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_0_V_read_1_reg_855_pp0_iter1_reg_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_0_V_read_1_reg_855_pp0_iter1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_3_V_read_1_reg_837_pp0_iter1_reg_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_3_V_read_1_reg_837_pp0_iter1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_2_V_read_1_reg_843_pp0_iter1_reg_reg[13]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_2_V_read_1_reg_843_pp0_iter1_reg_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_2_V_read_1_reg_843_pp0_iter1_reg_reg[14]' (FDE) to 'inst/grp_myproject_fu_234i_2_7/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_2_V_read_1_reg_843_pp0_iter1_reg_reg[15]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/ap_CS_fsm_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\layer11_out_1_V_reg_2372_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_44i_2_2/\lshr_ln708_95_reg_14787_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\layer11_out_1_V_reg_2372_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_pp0_iter1_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/grp_myproject_fu_234i_2_7/\grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/data_1_V_read_1_reg_849_pp0_iter1_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_49_reg_13783_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_49_reg_13783_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_49_reg_13783_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_49_reg_13783_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_49_reg_13783_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln708_189_reg_14751_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln708_189_reg_14751_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln708_189_reg_14751_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln708_189_reg_14751_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln708_189_reg_14751_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_514_reg_14620_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_522_reg_14660_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_527_reg_14675_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_527_reg_14675_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_527_reg_14675_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_540_reg_14741_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_54_reg_14508_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_54_reg_14508_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_54_reg_14508_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_54_reg_14508_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_515_reg_14625_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_66_reg_14135_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lshr_ln708_s_reg_14453_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\trunc_ln708_151_reg_14600_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_84_reg_14173_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_84_reg_14173_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_84_reg_14173_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shl_ln1118_23_reg_14238_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\trunc_ln708_189_reg_14848_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\trunc_ln708_189_reg_14848_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\trunc_ln708_189_reg_14848_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\trunc_ln708_189_reg_14848_reg[3] )
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_66_reg_14135_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_66_reg_14135_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lshr_ln708_85_reg_14756_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_561_reg_14899_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shl_ln1118_23_reg_14238_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shl_ln1118_23_reg_14238_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\add_ln703_105_reg_15055_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\add_ln703_419_reg_15525_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_120_reg_13794_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_120_reg_13794_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_120_reg_13794_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zext_ln1118_120_reg_13794_reg[9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\add_ln703_247_reg_16100_reg[15] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\add_ln703_367_reg_15925_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_501_reg_14218_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lshr_ln708_76_reg_14338_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lshr_ln708_s_reg_14453_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lshr_ln708_63_reg_14655_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\trunc_ln708_152_reg_14605_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lshr_ln708_56_reg_14645_reg[0] )
+DSP Report: Generating DSP myproject_axi_mul_7s_16s_21_2_1_U3/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg, operation Mode is: (A*B)'.
+DSP Report: register myproject_axi_mul_7s_16s_21_2_1_U3/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg is absorbed into DSP myproject_axi_mul_7s_16s_21_2_1_U3/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg.
+DSP Report: operator myproject_axi_mul_7s_16s_21_2_1_U3/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/tmp_product is absorbed into DSP myproject_axi_mul_7s_16s_21_2_1_U3/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg.
+DSP Report: Generating DSP myproject_axi_mul_6s_16s_21_2_1_U4/myproject_axi_mul_6s_16s_21_2_1_MulnS_1_U/p_reg, operation Mode is: (A*B)'.
+DSP Report: register myproject_axi_mul_6s_16s_21_2_1_U4/myproject_axi_mul_6s_16s_21_2_1_MulnS_1_U/p_reg is absorbed into DSP myproject_axi_mul_6s_16s_21_2_1_U4/myproject_axi_mul_6s_16s_21_2_1_MulnS_1_U/p_reg.
+DSP Report: operator myproject_axi_mul_6s_16s_21_2_1_U4/myproject_axi_mul_6s_16s_21_2_1_MulnS_1_U/tmp_product is absorbed into DSP myproject_axi_mul_6s_16s_21_2_1_U4/myproject_axi_mul_6s_16s_21_2_1_MulnS_1_U/p_reg.
+DSP Report: Generating DSP myproject_axi_mul_7s_16s_21_2_1_U2/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg, operation Mode is: (A*B)'.
+DSP Report: register myproject_axi_mul_7s_16s_21_2_1_U2/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg is absorbed into DSP myproject_axi_mul_7s_16s_21_2_1_U2/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg.
+DSP Report: operator myproject_axi_mul_7s_16s_21_2_1_U2/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/tmp_product is absorbed into DSP myproject_axi_mul_7s_16s_21_2_1_U2/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg.
+DSP Report: Generating DSP myproject_axi_mul_7s_16s_21_2_1_U1/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg, operation Mode is: (A*B)'.
+DSP Report: register myproject_axi_mul_7s_16s_21_2_1_U1/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg is absorbed into DSP myproject_axi_mul_7s_16s_21_2_1_U1/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg.
+DSP Report: operator myproject_axi_mul_7s_16s_21_2_1_U1/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/tmp_product is absorbed into DSP myproject_axi_mul_7s_16s_21_2_1_U1/myproject_axi_mul_7s_16s_21_2_1_MulnS_0_U/p_reg.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\shl_ln1118_83_reg_6764_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1118_113_reg_8665_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1116_1_reg_8308_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1116_1_reg_8308_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1116_1_reg_8308_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1116_1_reg_8308_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1116_1_reg_8308_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1116_1_reg_8308_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1118_113_reg_8665_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1118_113_reg_8665_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1118_113_reg_8665_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\tmp_629_reg_8187_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln1118_127_reg_8939_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\shl_ln708_70_reg_8482_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\shl_ln708_33_reg_8457_reg[0] )
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln708_54_reg_8857_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln708_54_reg_8857_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/\zext_ln708_54_reg_8857_reg[8] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4471] merging register 'empty_42_reg_1175_reg[7:4]' into 'shl_ln_reg_1170_reg[7:4]' [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:1137]
+WARNING: [Synth 8-3936] Found unconnected internal register 'lshr_ln958_reg_1347_reg' and it is trimmed from '32' to '26' bits. [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:1234]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shl_ln958_reg_1352_reg' and it is trimmed from '64' to '26' bits. [/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.srcs/sources_1/bd/design_1/ipshared/09c1/hdl/verilog/myproject_axi.v:1235]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 2048.082 ; gain = 525.906 ; free physical = 515 ; free virtual = 4511
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance inst/grp_myproject_fu_234i_2_7/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_Ui_2_0/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/exp_table1_U/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_U/q0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grp_myproject_fu_234i_2_7/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_Ui_2_1/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/exp_table1_U/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_U/q1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grp_myproject_fu_234i_2_7/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_Ui_2_2/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/exp_table1_U/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_U/q2_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grp_myproject_fu_234i_2_7/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_Ui_2_3/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/exp_table1_U/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_U/q3_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grp_myproject_fu_234i_2_7/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_Ui_2_4/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/exp_table1_U/softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom_U/q4_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grp_myproject_fu_234i_2_7/i_2_5/grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_300/y_V_5_reg_972_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++------+---------------------------------------------------------------------------------------+------------+----------+
+|      |RTL Partition                                                                          |Replication |Instances |
++------+---------------------------------------------------------------------------------------+------------+----------+
+|1     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1__GB0 |           1|     14591|
+|2     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1__GB1 |           1|      3653|
+|3     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB0 |           1|     13305|
+|4     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB1 |           1|      3048|
+|5     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB2 |           1|      3313|
+|6     |myproject__GCB0                                                                        |           1|     11355|
+|7     |myproject__GCB1                                                                        |           1|      5342|
+|8     |myproject__GCB2                                                                        |           1|      7367|
+|9     |myproject_axi__GC0                                                                     |           1|      5830|
++------+---------------------------------------------------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:01:04 . Memory (MB): peak = 2048.082 ; gain = 525.906 ; free physical = 203 ; free virtual = 4025
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:30 . Memory (MB): peak = 2134.762 ; gain = 612.586 ; free physical = 2848 ; free virtual = 6590
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------------------------------------------------------------------------+------------+----------+
+|      |RTL Partition                                                                          |Replication |Instances |
++------+---------------------------------------------------------------------------------------+------------+----------+
+|1     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB0 |           1|     13257|
+|2     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB1 |           1|      3043|
+|3     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB2 |           1|      3290|
+|4     |myproject__GCB0                                                                        |           1|     11345|
+|5     |myproject__GCB2                                                                        |           1|      7170|
+|6     |myproject_axi__GC0                                                                     |           1|      5830|
+|7     |myproject_axi_GT0                                                                      |           1|     23404|
++------+---------------------------------------------------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:02 ; elapsed = 00:01:40 . Memory (MB): peak = 2146.688 ; gain = 624.512 ; free physical = 2117 ; free virtual = 5870
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------------------------------------------------------------------------+------------+----------+
+|      |RTL Partition                                                                          |Replication |Instances |
++------+---------------------------------------------------------------------------------------+------------+----------+
+|1     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB0 |           1|      6876|
+|2     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB1 |           1|      1949|
+|3     |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s__GB2 |           1|      2161|
+|4     |myproject__GCB0                                                                        |           1|      7724|
+|5     |myproject__GCB2                                                                        |           1|      4304|
+|6     |myproject_axi__GC0                                                                     |           1|      3363|
+|7     |myproject_axi_GT0                                                                      |           1|     14832|
++------+---------------------------------------------------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop grp_myproject_fu_234/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/sub_ln1118_48_reg_8919_reg[10] is being inverted and renamed to grp_myproject_fu_234/grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112/sub_ln1118_48_reg_8919_reg[10]_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:08 ; elapsed = 00:01:46 . Memory (MB): peak = 2146.688 ; gain = 624.512 ; free physical = 2174 ; free virtual = 5971
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:08 ; elapsed = 00:01:46 . Memory (MB): peak = 2146.688 ; gain = 624.512 ; free physical = 2174 ; free virtual = 5971
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:10 ; elapsed = 00:01:49 . Memory (MB): peak = 2146.688 ; gain = 624.512 ; free physical = 2853 ; free virtual = 6639
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:10 ; elapsed = 00:01:49 . Memory (MB): peak = 2146.688 ; gain = 624.512 ; free physical = 2853 ; free virtual = 6639
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:11 ; elapsed = 00:01:49 . Memory (MB): peak = 2146.688 ; gain = 624.512 ; free physical = 2853 ; free virtual = 6639
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:11 ; elapsed = 00:01:49 . Memory (MB): peak = 2146.688 ; gain = 624.512 ; free physical = 2853 ; free virtual = 6639
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |  4072|
+|2     |DSP48E1_1  |     1|
+|3     |DSP48E1_2  |     1|
+|4     |DSP48E1_3  |     3|
+|5     |DSP48E1_4  |     4|
+|6     |LUT1       |  2198|
+|7     |LUT2       |  9480|
+|8     |LUT3       |  3303|
+|9     |LUT4       |  3326|
+|10    |LUT5       |  1204|
+|11    |LUT6       |  1803|
+|12    |MUXCY      |     4|
+|13    |MUXF7      |    13|
+|14    |MUXF8      |     1|
+|15    |RAMB18E1_2 |     1|
+|16    |RAMB18E1_3 |     2|
+|17    |RAMB18E1_4 |     1|
+|18    |SRL16E     |    83|
+|19    |FDRE       | 17028|
+|20    |FDSE       |    51|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:11 ; elapsed = 00:01:49 . Memory (MB): peak = 2146.688 ; gain = 624.512 ; free physical = 2853 ; free virtual = 6639
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 107 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:09 ; elapsed = 00:01:49 . Memory (MB): peak = 2146.688 ; gain = 458.762 ; free physical = 5854 ; free virtual = 9640
+Synthesis Optimization Complete : Time (s): cpu = 00:01:12 ; elapsed = 00:01:52 . Memory (MB): peak = 2146.688 ; gain = 624.512 ; free physical = 5858 ; free virtual = 9634
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4103 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2190.789 ; gain = 0.000 ; free physical = 5782 ; free virtual = 9566
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+394 Infos, 207 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:17 ; elapsed = 00:01:58 . Memory (MB): peak = 2190.789 ; gain = 822.145 ; free physical = 5915 ; free virtual = 9699
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2190.789 ; gain = 0.000 ; free physical = 5923 ; free virtual = 9707
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/design_1_myproject_axi_0_0_synth_1/design_1_myproject_axi_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_myproject_axi_0_0, cache-ID = 3313324d386aaea2
+INFO: [Coretcl 2-1174] Renamed 34 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2214.801 ; gain = 0.000 ; free physical = 5862 ; free virtual = 9697
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/design_1_myproject_axi_0_0_synth_1/design_1_myproject_axi_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_myproject_axi_0_0_utilization_synth.rpt -pb design_1_myproject_axi_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  7 11:33:53 2024...

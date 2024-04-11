@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr  7 11:34:14 2024
+# Process ID: 35842
+# Current directory: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/myproject_vivado_accelerator/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

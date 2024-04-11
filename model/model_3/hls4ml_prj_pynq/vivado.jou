@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr  7 11:31:13 2024
+# Process ID: 34259
+# Current directory: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq
+# Command line: vivado -mode batch -source design.tcl
+# Log file: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/vivado.log
+# Journal file: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/vivado.jou
+#-----------------------------------------------------------
+source design.tcl

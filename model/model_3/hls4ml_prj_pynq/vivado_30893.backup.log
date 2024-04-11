@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr  7 10:47:37 2024
+# Process ID: 30893
+# Current directory: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq
+# Command line: vivado -mode batch -source design.tcl
+# Log file: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/vivado.log
+# Journal file: /home/fang/PycharmProjects/hls4ml-tutorial/model_3/hls4ml_prj_pynq/vivado.jou
+#-----------------------------------------------------------
+source design.tcl
+# set tcldir [file dirname [info script]]
+# source [file join $tcldir project.tcl]
+## variable project_name
+## set project_name "myproject"
+## variable backend
+## set backend "vivadoaccelerator"
+## variable part
+## set part "xc7z020clg400-1"
+## variable clock_period
+## set clock_period 5
+## variable clock_uncertainty
+## set clock_uncertainty 12.5%
+## variable version
+## set version "1.0.0"
+## set bit_width_hls_output 32
+## set bit_width_hls_input 32
+# create_project project_1 ${project_name}_vivado_accelerator -part xc7z020clg400-1 -force
+# set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
+ERROR: [Board 49-71] The board_part definition was not found for tul.com.tw:pynq-z2:part0:1.0. The project's board_part property was not set, but the project's part property was set to xc7z020clg400-1. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command. Check if board.repoPaths parameter is set and the board_part is installed from the tcl app store.
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  7 10:47:41 2024...
