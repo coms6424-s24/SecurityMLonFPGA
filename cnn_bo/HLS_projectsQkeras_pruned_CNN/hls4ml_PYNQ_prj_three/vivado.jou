@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr 23 17:31:27 2024
+# Process ID: 4213
+# Current directory: /home/fang/PycharmProjects/cnn_bo/HLS_projectsQkeras_pruned_CNN/hls4ml_PYNQ_prj_three
+# Command line: vivado -mode batch -source design.tcl
+# Log file: /home/fang/PycharmProjects/cnn_bo/HLS_projectsQkeras_pruned_CNN/hls4ml_PYNQ_prj_three/vivado.log
+# Journal file: /home/fang/PycharmProjects/cnn_bo/HLS_projectsQkeras_pruned_CNN/hls4ml_PYNQ_prj_three/vivado.jou
+#-----------------------------------------------------------
+source design.tcl

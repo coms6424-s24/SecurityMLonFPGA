@@ -1,0 +1,90 @@
+AcceleratorConfig:
+  Board: pynq-z2
+  Driver: python
+  Interface: axi_stream
+  Precision:
+    Input: float
+    Output: float
+Backend: VivadoAccelerator
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    flatten:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    layer0:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    maxp:
+      Precision:
+        result: fixed<16,6>
+      Trace: true
+    maxp_1:
+      Precision:
+        result: fixed<16,6>
+      Trace: true
+    q_conv2d:
+      Precision:
+        bias: fixed<7,1>
+        result: fixed<16,6>
+        weight: fixed<4,2>
+      ReuseFactor: 72
+      Strategy: Latency
+      Trace: true
+    q_conv2d_1:
+      Precision:
+        bias: fixed<6,1>
+        result: fixed<16,6>
+        weight: fixed<5,1>
+      ReuseFactor: 72
+      Strategy: Latency
+      Trace: true
+    q_conv2d_1_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    q_conv2d_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    q_dense:
+      Precision:
+        bias: fixed<6,1>
+        result: fixed<16,6>
+        weight: fixed<5,1>
+      ReuseFactor: 20
+      Strategy: Resource
+      Trace: true
+    q_dense_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    q_relu:
+      Precision:
+        result: ufixed<3,1,RND_CONV,SAT>
+      Trace: false
+    q_relu_1:
+      Precision:
+        result: ufixed<3,1,RND_CONV,SAT>
+      Trace: false
+    softmax:
+      Precision:
+        result: fixed<16,6>
+      Strategy: Stable
+      Trace: true
+      table_size: 256
+  Model:
+    Precision: ap_fixed<10,6>
+    ReuseFactor: 36
+    Strategy: Resource
+  SkipOptimizers:
+  - reshape_stream
+IOType: io_stream
+KerasModel: !keras_model '/home/fang/PycharmProjects/cnn_bo/HLS_projectsQkeras_pruned_CNN/hls4ml_PYNQ_prj_three/keras_model.h5'
+OutputDir: /home/fang/PycharmProjects/cnn_bo/HLS_projectsQkeras_pruned_CNN/hls4ml_PYNQ_prj_three
+Part: xc7z020clg400-1
+ProjectName: myproject
+Stamp: F45a8cCa
+Version: 1.0.0

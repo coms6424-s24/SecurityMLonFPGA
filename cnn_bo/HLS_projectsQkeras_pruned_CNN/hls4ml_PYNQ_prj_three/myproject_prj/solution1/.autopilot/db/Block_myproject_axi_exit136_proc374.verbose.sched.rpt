@@ -1,0 +1,210 @@
+
+
+================================================================
+== Vivado HLS Report for 'Block_myproject_axi_exit136_proc374'
+================================================================
+* Date:           Tue Apr 23 17:30:43 2024
+
+* Version:        2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)
+* Project:        myproject_prj
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |   5.00|     4.375|        0.62|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    9|    9|    9|    9|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 10
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 4.37>
+ST_1 : Operation 11 [1/1] (2.18ns)   --->   "%empty = call { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @_ssdm_op_Read.ap_fifo.volatile.i16P.i16P.i16P.i16P.i16P.i16P.i16P.i16P.i16P.i16P(i16* %out_local_V_data_0_V, i16* %out_local_V_data_1_V, i16* %out_local_V_data_2_V, i16* %out_local_V_data_3_V, i16* %out_local_V_data_4_V, i16* %out_local_V_data_5_V, i16* %out_local_V_data_6_V, i16* %out_local_V_data_7_V, i16* %out_local_V_data_8_V, i16* %out_local_V_data_9_V)" [firmware/myproject_axi.cpp:30]   --->   Operation 11 'read' 'empty' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%tmp_data_V_16_01 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 0" [firmware/myproject_axi.cpp:30]   --->   Operation 12 'extractvalue' 'tmp_data_V_16_01' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%tmp_data_V_16_12 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 1" [firmware/myproject_axi.cpp:30]   --->   Operation 13 'extractvalue' 'tmp_data_V_16_12' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%tmp_data_V_16_23 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 2" [firmware/myproject_axi.cpp:30]   --->   Operation 14 'extractvalue' 'tmp_data_V_16_23' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%tmp_data_V_16_34 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 3" [firmware/myproject_axi.cpp:30]   --->   Operation 15 'extractvalue' 'tmp_data_V_16_34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%tmp_data_V_16_45 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 4" [firmware/myproject_axi.cpp:30]   --->   Operation 16 'extractvalue' 'tmp_data_V_16_45' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%tmp_data_V_16_56 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 5" [firmware/myproject_axi.cpp:30]   --->   Operation 17 'extractvalue' 'tmp_data_V_16_56' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%tmp_data_V_16_67 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 6" [firmware/myproject_axi.cpp:30]   --->   Operation 18 'extractvalue' 'tmp_data_V_16_67' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%tmp_data_V_16_78 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 7" [firmware/myproject_axi.cpp:30]   --->   Operation 19 'extractvalue' 'tmp_data_V_16_78' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%tmp_data_V_16_89 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 8" [firmware/myproject_axi.cpp:30]   --->   Operation 20 'extractvalue' 'tmp_data_V_16_89' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%tmp_data_V_16_910 = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %empty, 9" [firmware/myproject_axi.cpp:30]   --->   Operation 21 'extractvalue' 'tmp_data_V_16_910' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_01)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 22 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+
+State 2 <SV = 1> <Delay = 2.18>
+ST_2 : Operation 23 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_12)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 23 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+
+State 3 <SV = 2> <Delay = 2.18>
+ST_3 : Operation 24 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_23)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 24 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+
+State 4 <SV = 3> <Delay = 2.18>
+ST_4 : Operation 25 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_34)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 25 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+
+State 5 <SV = 4> <Delay = 2.18>
+ST_5 : Operation 26 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_45)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 26 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+
+State 6 <SV = 5> <Delay = 2.18>
+ST_6 : Operation 27 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_56)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 27 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+
+State 7 <SV = 6> <Delay = 2.18>
+ST_7 : Operation 28 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_67)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 28 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+
+State 8 <SV = 7> <Delay = 2.18>
+ST_8 : Operation 29 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_78)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 29 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+
+State 9 <SV = 8> <Delay = 2.18>
+ST_9 : Operation 30 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_89)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 30 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+
+State 10 <SV = 9> <Delay = 2.18>
+ST_10 : Operation 31 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_9_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 31 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 32 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_8_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 32 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 33 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_7_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 33 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 34 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_6_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 34 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 35 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_5_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 35 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 36 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_4_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 36 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 37 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_3_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 37 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 38 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_2_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 38 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 39 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_1_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 39 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 40 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %out_local_V_data_0_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 40 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 41 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i16* %tmp_data_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 41 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 42 [1/1] (2.18ns)   --->   "call void @_ssdm_op_Write.ap_fifo.volatile.i16P(i16* %tmp_data_V, i16 %tmp_data_V_16_910)" [firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30]   --->   Operation 42 'write' <Predicate = true> <Delay = 2.18> <Core = "FIFO_SRL">   --->   Core 36 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 0> <FIFO>
+ST_10 : Operation 43 [1/1] (0.00ns)   --->   "ret void"   --->   Operation 43 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5ns, clock uncertainty: 0.625ns.
+
+ <State 1>: 4.38ns
+The critical path consists of the following:
+	fifo read on port 'out_local_V_data_0_V' (firmware/myproject_axi.cpp:30) [23]  (2.19 ns)
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [34]  (2.19 ns)
+
+ <State 2>: 2.19ns
+The critical path consists of the following:
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [35]  (2.19 ns)
+
+ <State 3>: 2.19ns
+The critical path consists of the following:
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [36]  (2.19 ns)
+
+ <State 4>: 2.19ns
+The critical path consists of the following:
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [37]  (2.19 ns)
+
+ <State 5>: 2.19ns
+The critical path consists of the following:
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [38]  (2.19 ns)
+
+ <State 6>: 2.19ns
+The critical path consists of the following:
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [39]  (2.19 ns)
+
+ <State 7>: 2.19ns
+The critical path consists of the following:
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [40]  (2.19 ns)
+
+ <State 8>: 2.19ns
+The critical path consists of the following:
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [41]  (2.19 ns)
+
+ <State 9>: 2.19ns
+The critical path consists of the following:
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [42]  (2.19 ns)
+
+ <State 10>: 2.19ns
+The critical path consists of the following:
+	fifo write on port 'tmp_data_V' (firmware/nnet_utils/nnet_types.h:29->firmware/myproject_axi.cpp:30) [43]  (2.19 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
