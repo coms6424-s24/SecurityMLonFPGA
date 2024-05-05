@@ -16,6 +16,6 @@ compile it into a bitstream, ultimately deploying it on other FPGAs.
 
 ## Outcome:
 
-We successfully using different toolkits to trained, compressed, and deployed different kinds of ML models on our physical FPGA and
-caputure their TDC trace during inference. We successfully reversed engineered a model
+We successfully trained, compressed, and deployed different kinds of ML models on our physical FPGA and
+caputure their TDC trace during inference using different toolkits. We successfully reversed engineered a model
 with 94.5% acccuarcy on MNIST task based on the idea of model distillation.
